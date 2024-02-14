@@ -44,7 +44,7 @@ CLASSIFIERS = [
 
 setuptools.setup(
     name="cyclone",
-    version="1.3",
+    version="1.3.1",
     author="fiorix",
     author_email="fiorix@gmail.com",
     url="http://cyclone.io/",
@@ -58,6 +58,6 @@ setuptools.setup(
                               "appskel_foreman.zip",
                               "appskel_signup.zip"]},
     scripts=["scripts/cyclone"],
-    install_requires=["twisted==19.2.1","pyOpenSSL==19.0.0"],
+    install_requires=["twisted==19.2.1","pyOpenSSL==24.0.0"],
     classifiers=CLASSIFIERS,
 )
